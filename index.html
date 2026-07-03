@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Amazon Clone</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+<link href="https://googleapis.com" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- navbar-->
+<header>
+<div class="nav">
+<div class="nav-logo">
+<div class="logo border"> <!-- border is different class , for hover of white border, common to elements-->
+</div>
+</div>
+
+
+<div class="nav-address border">
+<p class="deliver"> Deliver to</p>
+<div class="nav-add-icon">
+<i class="fa fa-map-marker"></i> 
+<p>India</p>
+</div>
+</div>
+
+
+<div class="nav-search border">
+<select class="nav-search-all">
+<option>ALL</option>
+<option>Alexa skills</option>
+<option>Amazon devices</option>
+<option>Beauty</option>
+<option>clothings</option>
+<option>Books</option>
+<option>kids</option>
+<option>Alexa skills</option>
+<option>Amazon devices</option>
+<option>Beauty</option>
+<option>clothings</option>
+<option>Books</option>
+<option>kids</option>
+</select>
+
+<input placeholder="Search Amazon.in"> 
+<div class="search-icon">
+<i class="fa fa-search"></i>
+</div>
+</div>
+
+
+<div class="country border">
+<i class="fa-solid fa-flag-usa"></i>
+<p>EN</p>
+</div>
+
+
+<div class="hello-user border">
+<p>Hello, User</p>
+<div class="hello-user-second-part">
+<p>Accounts & Lists</p>
+<i class="fa-solid fa-caret-down"></i>
+</div>
+</div>
+
+<div class="return-user border">
+<p>Returns</p>
+<div class="hello-user-second-part"> <!-- same class as previous bcoz same style required and applied -->
+<p>& Orders</p>
+</div>
+</div>
+
+<div class="cart border">
+<i class="fa-solid fa-cart-arrow-down"></i>
+<p>Cart</p>
+</div>
+
+
+</div> <!-- first nav-->
+
+
+
+<!-- second nav bar below main or first nav bar-->
+<div class="second-nav">
+<div class="second-nav-all border">
+<i class="fa-sharp fa-solid fa-bars"></i>
+<p>ALL</p>
+</div>
+
+
+<div class="rufus border">
+<p>Rufus</p>
+</div>
+
+
+<div class="second-nav-links">
+
+<div class="second-nav-links-individual1 border">
+<p>Fresh</p>
+<i class="fa-solid fa-caret-down second-nav-link-icon"></i>
+</div>
+<div class="second-nav-links-individual2 border">Gift Cards</div>
+<div class="second-nav-links-individual3 border">Flights</div>
+<div class="second-nav-links-individual4 border">Fashion</div>
+<div class="second-nav-links-individual5 border">Buy Again</div>
+<div class="second-nav-links-individual6 border">Amazon Pay</div>
+<div class="second-nav-links-individual7 border">Mx Player</div>
+<div class="second-nav-links-individual8 border">Sell</div>
+<div class="second-nav-links-individual9 border">Prime
+<i class="fa-solid fa-caret-down second-nav-link-icon"></i>
+</div>
+<div class="second-nav-links-individual10 border">Subscribe And Save</div>
+</div>
+
+</div>
+</header>
+
+
+
+<!--hero section-->
+<div class="hero">
+</div>
+
+
+<!-- shopping cards down after hero -->
+<div class="shop-cards">
+
+<div class="box1">
+<h1>Discover Trending Fashion</h1>
+
+<div class="box1-img-first-row">
+<div class="box1-img1"><img src="images/img1.png">
+<p>Women's Long Coat</p>
+</div>
+
+<div class="box1-img2"><img src="images/img2.png">
+<p>White Casual Top</p>
+</div>
+
+</div>
+<div class="box1-img-second-row">
+<div class="box1-img3"><img src="images/img3.png">
+<p>Women's Black Blazer</p>
+</div>
+<div class="box1-img4"><img src="images/img4.png">
+<p>Floral Tshirt</p>
+</div>
+</div>
+<div class="box-down-text"><a>Men's and Women Fashion</a></div>
+</div> <!--box 1-->
+
+
+
+<div class="box1">
+<h1>New Arrivals in Fashion</h1>
+
+<div class="box1-img-first-row">
+<div class="box1-img1"><img src="images/img5.png">
+<p>Geometric Print Top</p>
+</div>
+
+<div class="box1-img2"><img src="images/img11.png">
+<p>Summer Dress</p>
+</div>
+
+</div>
+<div class="box1-img-second-row">
+<div class="box1-img3"><img src="images/img9.png">
+<p>Men's Sattin Shirt</p>
+</div>
+<div class="box1-img4"><img src="images/img8.png">
+<p>Rainbow Stripe Top</p>
+</div>
+</div>
+<a class="box-down-text">Latest Clothing Collection</a>
+
+</div><!-- box2-->
+
+<div class="box1">
+<h1>Footwear & Accessories</h1>
+
+<div class="box1-img-first-row">
+<div class="box1-img1"><img src="images/img7.png">
+<p>Zebra Print Sweater</p>
+</div>
+
+<div class="box1-img2"><img src="images/img10.png">
+<p>Leather GumBoots</p>
+</div>
+
+</div>
+<div class="box1-img-second-row">
+<div class="box1-img3"><img src="images/img6.png">
+<p>Red High Heels</p>
+</div>
+<div class="box1-img4"><img src="images/img12.png">
+<p>Men’s Tshirt</p>
+</div>
+</div>
+<a class="box-down-text">Shoes & Fashion Essentials</a>
+
+</div><!--box3-->
+
+
+<div class="box1 box4"> <!--starting of box 4-->
+<div class="box4-box1">
+<div class="box4-box1-subbox1">
+<h1>Bulk discounts + 10% guaranteed cashback !</h1>
+<img src="images/box4-box1.jpg">
+</div>
+<a class="box4-down-text">Explore Amazon Business</a>
+</div>
+
+<div class="box4-box2">
+ <div class="box4-box2-subbox1">
+<img src="images/img13.png">
+ </div>
+<div class="box4-box2-subbox2">
+<p>Pinkmint Mens Cotton Blend Regular Fit Long Sleeve Button Down White Shirt for Men Collared Casual Formal Soild Shirt</p>
+<div class="subbox2-star-icons">
+
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-regular fa-star"></i>
+<p>(1353)</p>
+</div> <!-star icons-->
+
+<div class="limited-time-deal">
+<p>Limited Time Deal </p>
+</div>
+
+<div class="box4-box2-prize">
+<p><span>-80%</span> ₹300 <br>
+<a> M.R.P    <del>1999</del></a></p>
+</div>
+
+</div> <!-sub box 2 from box4-->
+</div><!-- box 4-->
+</div>
+</div><!-- shop div -->
+
+
+
+
+<div class="shop2">
+<div class="box1">
+<h1>Keep Shopping For</h1>
+
+<div class="box1-img-first-row">
+<div class="box1-img1"><img src="images/img14.png">
+<p>Golden Buddha Statue</p>
+</div>
+
+<div class="box1-img2"><img src="images/img15.png">
+<p>Showpiece</p>
+</div>
+
+</div>
+<div class="box1-img-second-row">
+<div class="box1-img3"><img src="images/img16.png">
+<p>Women's Crop Top</p>
+</div>
+<div class="box1-img4"><img src="images/img17.png">
+<p>Denim Jeans</p>
+</div>
+</div>
+<div class="box-down-text"><a>View All recommendations</a></div>
+</div> <!--box 1-->
+
+<div class="box1">
+<h1>Revamp your home in style</h1>
+
+<div class="box1-img-first-row">
+<div class="box1-img1"><img src="images/img18.png">
+<p>Modern Wall Decor</p>
+</div>
+
+<div class="box1-img2"><img src="images/img19.png">
+<p>Wooden Bed Frame</p>
+</div>
+
+</div>
+<div class="box1-img-second-row">
+<div class="box1-img3"><img src="images/img20.png">
+<p>Room Furniture</p>
+</div>
+<div class="box1-img4"><img src="images/img21.png">
+<p>Sofa Set</p>
+</div>
+</div>
+<a class="box-down-text">Discover Home Essentials</a>
+
+</div><!-- box2-->
+
+<div class="box1">
+<h1>Upto 60% off | Furniture & mattresses</h1>
+
+<div class="box1-img-first-row">
+<div class="box1-img1"><img src="images/img22.png">
+<p>Wall Lamp</p>
+</div>
+
+<div class="box1-img2"><img src="images/img23.png">
+<p>Fruit Basket</p>
+</div>
+
+</div>
+<div class="box1-img-second-row">
+<div class="box1-img3"><img src="images/img24.png">
+<p>Decorative Showpiece</p>
+</div>
+<div class="box1-img4"><img src="images/img25.png">
+<p>Storage Rack</p>
+</div>
+</div>
+<a class="box-down-text">See all offers</a>
+
+</div><!--box3-->
+
+
+<div class="box1">
+<h1>Upto 60% off | Footwear & handbags</h1>
+
+<div class="box1-img-first-row">
+<div class="box1-img1"><img src="images/img26.png">
+<p>Chopping Board</p>
+</div>
+
+<div class="box1-img2"><img src="images/img27.png">
+<p>Bathroom Essentials</p>
+</div>
+
+</div>
+<div class="box1-img-second-row">
+<div class="box1-img3"><img src="images/img28.png">
+<p>Bedding Set</p>
+</div>
+<div class="box1-img4"><img src="images/img29.png">
+<p>Dinning Chair</p>
+</div>
+</div>
+<a class="box-down-text">Shop Now</a>
+
+</div>
+</div> <!-- sjop2 -->
+
+
+
+<div class="scroll-products">
+<div class="scroll-product-section">
+<h1>Fashion picks you'll love<span>see more </span></h1>
+<div class="scroll-products-img">
+<div class="scroll-products-card2">
+<img src="images/img30.png">
+</div>
+<div class="scroll-products-card2">
+<img src="images/img31.png">
+</div>
+<div class="scroll-products-card2">
+<img src="images/img32.png">
+</div>
+<div class="scroll-products-card2">
+<img src="images/img33.png">
+</div>
+<div class="scroll-products-card2">
+<img src="images/img34.png">
+</div>
+<div class="scroll-products-card2">
+<img src="images/img35.png">
+</div>
+<div class="scroll-products-card2">
+<img src="images/img36.png">
+</div>
+<div class="scroll-products-card2">
+<img src="images/img39.png">
+</div>
+<div class="scroll-products-card2">
+<img src="images/img13.png">
+</div>
+<div class="scroll-products-card2">
+<img src="images/img9.png">
+</div>
+<div class="scroll-products-card2">
+<img src="images/img33.png">
+</div>
+<div class="scroll-products-card2">
+<img src="images/img38.png">
+</div>
+<div class="scroll-products-card2">
+<img src="images/img37.png">
+</div>
+</div><!--scroll product scetion-->
+</div> <!--imges overall div-->
+</div> <!-- scroll prodcut end-->
+
+
+
+
+<div class="one-man-div">
+<div class="one-man-inner-div">
+
+<div class="one-man-div-img">
+</div>
+
+<div class="one-man-div-man-img">
+</div>
+
+<div class="man-div-text">
+<h1>CVC Men's Satin Regular Fit Formal Shirt</h1>
+<h1>The Ultimate Silk-Smooth party shirt </h1>
+
+<p><span class="discount">-86% </span> $499 <sup>00</sup> 
+<span class="mrp">M.R.P.<del>1399</del></span>
+</p>
+<p><span class="save"> Save 5% </span> <span class="coupon">with coupon</p>
+</div>
+
+</div>
+</div> <!--inner main white div-->
+
+
+
+
+
+
+
+
+<!-- women video div-->
+<div class="women-video">
+
+<div class="women-div-white-box">
+<div class="women-div-h1">
+Amazon LIVE - Watch, Chat & Shop LIVE <span>See more from Amazon Live</span>
+</div> <!-- h1-->
+
+<div class="women-video-images-div">
+
+<div class="women-main-video">
+<video autoplay muted loop controls>
+<source src="images/women-video.mp4" type="video/mp4">
+</video>
+</div>
+
+<div class="women-main-images"> 
+
+<div class="women-video-img">
+<div class="women-img-box1">
+<img src="images/img48.png">
+</div>
+<div class="women-img-box2">
+<p>Mini Rechargeable Electric Food Chopper <br>
+<span class="bou200">200+ Bought in Last month</span>
+<div class="discountwomen">
+<span class="off6">67% Off</span>
+<span class="lim">Limited Time Deal</span></p>
+</div> <!-- dicutn women offer-->
+<h5>$499 Off <del>$1499.00</del>
+</div>
+</div>
+
+<div class="women-video-img">
+<div class="women-img-box1">
+<img src="images/img49.png">
+</div>
+<div class="women-img-box2">
+<p>Cordless Precision Grooming Trimmer<br>
+<span class="bou200">200+ Bought in Last month</span>
+<div class="discountwomen">
+<span class="off6">67% Off</span>
+<span class="lim">Limited Time Deal</span></p>
+</div> <!-- dicutn women offer-->
+<h5>$1299 Off <del>$2995.00</del>
+</div>
+</div>
+
+
+<div class="women-video-img">
+<div class="women-img-box1">
+<img src="images/img52.png">
+</div>
+<div class="women-img-box2">
+<p>Healthy Oil-Free Air Fryer<br>
+<span class="bou200">200+ Bought in Last month</span>
+<h5>$2795 Off <del>$5999.00</del>
+</div>
+</div>
+
+
+<div class="women-video-img">
+<div class="women-img-box1">
+<img src="images/img51.png">
+</div>
+<div class="women-img-box2">
+<p>One-Touch Mini Vegetable Chopper <br>
+<span class="bou200">200+ Bought in Last month</span>
+<h5>$699 Off <del>$1999.00</del>
+</div>
+</div>
+
+
+<div class="women-video-img">
+<div class="women-img-box1">
+<img src="images/img50.png">
+</div>
+<div class="women-img-box2">
+<p>Smart Inverter Split Air Conditioner<br>
+<span class="bou200">200+ Bought in Last month</span>
+<div class="discountwomen">
+<span class="off6">67% Off</span>
+<span class="lim">Limited Time Deal</span></p>
+</div> <!-- dicutn women offer-->
+
+<h5>$41,980 Off <del>$61,970.00</del>
+</div>
+</div>
+
+<div class="women-video-img">
+<div class="women-img-box1">
+<img src="images/img53.png">
+</div>
+<div class="women-img-box2">
+<p>Insulated Lunch Jar with Spoon <br>
+<span class="bou200">200+ Bought in Last month</span>
+<div class="discountwomen">
+<span class="off6">67% Off</span>
+<span class="lim">Limited Time Deal</span></p>
+</div> <!-- dicutn women offer-->
+
+<h5>$699 Off <del>$1999.00</del>
+</div>
+</div>
+
+<div class="women-video-img">
+<div class="women-img-box1">
+<img src="images/img54.png">
+</div>
+<div class="women-img-box2">
+<p>Professional Stainless Steel Chef Knife <br>
+<span class="bou200">200+ Bought in Last month</span>
+<div class="discountwomen">
+<span class="off6">67% Off</span>
+<span class="lim">Limited Time Deal</span></p>
+</div> <!-- dicutn women offer-->
+<h5>$1299 Off <del>$2999.00</del>
+</div>
+</div>
+
+
+<div class="women-video-img">
+<div class="women-img-box1">
+<img src="images/img55.png">
+</div>
+<div class="women-img-box2">
+<p>Collapsible Silicone Storage Basket<br>
+<span class="bou200">200+ Bought in Last month</span>
+<h5>$1299 Off <del>$2999.00</del>
+</div>
+</div>
+
+
+<div class="women-video-img">
+<div class="women-img-box1">
+<img src="images/img56.png">
+</div>
+<div class="women-img-box2">
+<p>Premium Stainless Steel Garden Hand Trowel <br>
+<span class="bou200">200+ Bought in Last month</span>
+<div class="discountwomen">
+<span class="off6">67% Off</span>
+<span class="lim">Limited Time Deal</span></p>
+</div> <!-- dicutn women offer-->
+<h5>$499 Off <del>$999.00</del>
+</div>
+</div>
+</div>
+
+</div> <!--women images  video div-->
+</div> <!--"women-div-white-box"-->
+</div> <!-- women video div ending-->
+
+
+
+
+
+
+<div class="only-images-scroll">
+<div class="only-images-white-box">
+<div class="women-div-h1">
+More Items to Consider<span>See more from Amazon Live</span>
+</div>
+
+<div class="only-images-overall-div">
+<div class="only-images-img">
+<img src="images/img40.png">
+</div> <!-- individual images-->
+
+<div class="only-images-img">
+<img src="images/img41.png">
+</div> <!-- individual images-->
+
+
+<div class="only-images-img">
+<img src="images/img44.png">
+</div> <!-- individual images-->
+
+
+<div class="only-images-img">
+<img src="images/img45.png">
+</div> <!-- individual images-->
+
+
+<div class="only-images-img">
+<img src="images/img20.png">
+</div> <!-- individual images-->
+
+
+<div class="only-images-img">
+<img src="images/img43.png">
+</div> <!-- individual images-->
+
+
+<div class="only-images-img">
+<img src="images/img46.png">
+</div> <!-- individual images-->
+
+<div class="only-images-img">
+<img src="images/img47.png">
+</div> <!-- individual images-->
+
+<div class="only-images-img">
+<img src="images/img18.png">
+</div> <!-- individual images-->
+
+<div class="only-images-img">
+<img src="images/img20.png">
+</div> <!-- individual images-->
+
+<div class="only-images-img">
+<img src="images/img42.png">
+</div> <!-- individual images-->
+
+
+</div><!-- ony images overall div-->
+</div><!--white box-->
+</div> <!-- only images -->
+
+
+
+
+
+<!--footer-->
+<div class="footer">
+<div class="footer-starting-text">
+<p>Back to Top</p>
+</div><!--footer startign text back to top-->
+
+<div class="individual-div-text">
+<div class="text1">
+<h2>Get To Know <br>Us </h2>
+<a href="#">About Amazon </a>
+<a href="#"> Careers</a>
+<a href="#">Press Releases</a>
+<a href="#">Amazon Science </a>
+</div>
+
+<div class="text1">
+<h2>Connect With<br>Us </h2>
+<a href="#">Facebook </a>
+<a href="#"> Twitter</a>
+<a href="#">Instagram</a>
+</div>
+
+<div class="text1">
+<h2>Make Money With Us </h2>
+<a href="#">Sell on Amazon </a>
+<a href="#">Sell under Amazon <br>Accelerator</a>
+<a href="#">Protect and Build your Brand</a>
+<a href="#">Amazon Global Selling </a>
+<a href="#">Supply to  Amazon </a>
+<a href="#">Become An Affiliate </a>
+<a href="#">Fulfilment By Amazon</a>
+<a href="#">Advertise your Products </a>
+<a href="#">Amazon Pay on Merchants</a>
+</div>
+
+<div class="text1">
+<h2>Let Us Help You</h2>
+<a href="#">Your Account</a>
+<a href="#">Return Center</a>
+<a href="#">Recalls and Product Safety <br>Alerts </a>
+<a href="#">100% Purchase Protection </a>
+<a href="#">Amazon Help Download <br>App</a>
+</div>
+</div><!--text div footer-->
+
+<div class="footer-end-white-box">
+<div class="footer-end-text">
+
+<div class="amazon-logo-in-footer"> </div><!--amazon logo footer-->
+
+<div class="footer-end-lang">
+    <i class="fa-solid fa-globe"></i>
+<p>English</p>
+<div class="sort-icon">
+</div><!-- lang footer -->
+</div><!--sort icon-->
+
+<div class="footer-end-lang india"> 
+<div class="india-flag"></div>
+<p>India</p>
+</div><!--sort icon-->
+</div>
+
+</div><!--white box footer-->
+</div><!-- footer end-->
+
+
+
+<div class="last-part">
+<div class="last-part-div1">
+
+<div class="part1">
+<h4>AdeBooks</h4>
+<a href="#">Books , Arts</a>
+<a href="#">Collectibles</a>
+<div class="space"></div>
+<h4>ShopBob</h4>
+<a href="#">Desginer</a>
+<a href="#">Fashion Brands</a>
+
+</div><!--part 1-->
+
+<div class="part1">
+<h4>Amazon Web Services</h4>
+<a href="#">Scalabel Cloud</a>
+<a href="#">Computing Services</a>
+<div class="space"></div>
+<h4>Amazon Business</h4>
+<a href="#">Everything For your</a>
+<a href="#">Business</a>
+
+</div><!--part 1-->
+
+<div class="part1">
+<h4>Audible</h4>
+<a href="#">Download</a>
+<a href="#">Audio Books</a>
+<div class="space"></div>
+<h4>Amazon Music</h4>
+<a href="#">Stream Million of</a>
+<a href="#">Songs</a>
+
+</div><!--part 1-->
+
+<div class="part1">
+<h4>IMDB</h4>
+<a href="#">Movies , Tv</a>
+<a href="#">& Celebrities</a>
+</div><!--part 1-->
+
+</div>
+
+<div class="middle-part">
+
+
+<div class="last-part-text-div">
+<a href="#">Conditions of Use & Sales</a>
+<a href="#">Privacy Notice</a>
+ <a href="#">Interest Based Ads</a>
+<h4>1996-2026, Amazon.com,Inc or its Affiliate</h4>
+</div>
+</div>
+
+
+</div><!--last part--->
+
+</body>
+</html>
